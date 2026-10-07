@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;      /* was height: 100vh, which cut off the top on long forms */
+  margin: 0;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+.survey-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.question-block {
+  margin-bottom: 15px;
+}
+
+.option {
+  display: block;
+  margin-left: 10px;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#results-container ul {
+  padding-left: 20px;
+}
+
+#results-container li {
+  margin-bottom: 12px;
+}

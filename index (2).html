@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random 5-Question Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="survey-container">
+    <h1>Quick Survey</h1>
+    <button id="start-btn" type="button" onclick="startSurvey()">Start Survey</button>
+
+    <form id="survey-form" class="hidden">
+      <div id="questions-container"></div>
+      <button type="submit" id="submit-btn">Submit Answers</button>
+    </form>
+
+    <div id="results-container" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
